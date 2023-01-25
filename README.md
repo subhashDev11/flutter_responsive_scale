@@ -1,7 +1,7 @@
 
 # flutter_responsive_scale
 
-flutter_responsive_scale is an package that is used to build responsive UI using responsive scale.
+**A flutter plugin for adapting screen and font size.Let your UI display a reasonable layout on different screen sizes by using device scale!**
 
 ![](C:/Users/Bhardwaj/Downloads/steppr_list_view.gif)
 
@@ -24,10 +24,66 @@ Main motivation behind this package was one of my project feature is required a 
 - Easy to use
 - Responsive Query option - fontScale, yScale and width scale
 
+## Usage
 
-## Documentation
+### Add dependency
 
-## Usage/Examples
+Please check the latest version before installation.
+If there is any problem with the new version, please use the previous version
+
+```yaml
+dependencies:
+  flutter:
+    sdk: flutter
+  # add flutter_responsive_scale
+  flutter_responsive_scale: ^{latest version}
+```
+
+### Add the following imports to your Dart code
+
+```dart
+import 'package:flutter_responsive_scale/flutter_responsive_scale.dart';
+```
+
+### Property
+
+| Property        | Type         | Parameter | Description                                                                 |
+| --------------- | ------------ | ------------- | --------------------------------------------------------------------------- |
+| context.Scale(size)      | Function        | double required          |  Pixels scaled per device from design. Where One pixel on a 160px screen equals two pixels on a 320px screen. Also and alias for scaleX.     |
+| context.fontScale(14)      | Function         | double required | Relative to the font-size setting of the actual device.
+
+| context.scaleY()         | Function     | double required          |  Pixels scaled per device from design in the Vertical direction. Where One pixel on a 160px screen equals two pixels on a 320px screen. |
+
+| ResponsiveScaleConfig     | Clase     | height (double), width (double), allowFontScaling (bool - true)  |  Pixels scaled per device from design in the Vertical direction. Where One pixel on a 160px screen equals two pixels on a 320px screen. |
+
+
+### Initialize and set the fit size and font size to scale according to the system's "font size" accessibility option 
+
+Please set the scale config of the design draft before use, the width, height of the design draft and allowFontScaling.
+
+```dart
+
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return ResponsiveScale(
+      config: const ResponsiveScaleConfig(),
+      child: MaterialApp(
+        title: 'Responsive scale demo',
+        theme: ThemeData.dark(),
+        home: const ScaleTestPage(
+          title: 'Hi , Flutter dev - ',
+        ),
+      ),
+    );
+  }
+}
+
+```
+
+## Examples
 
 ```dart
 import 'package:flutter/material.dart';
