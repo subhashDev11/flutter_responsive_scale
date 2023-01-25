@@ -4,17 +4,8 @@
 
 ![](C:/Users/Bhardwaj/Downloads/steppr_list_view.gif)
 
-## Motivation
-Main motivation behind this package was one of my project feature is required a responsive UI and simple device query for different platform.
-## Authors
-
-- [@subhashDev11](https://github.com/subhashDev11)
-
-
 ## Demo
-
 ![steppr_list_view](https://user-images.githubusercontent.com/70679949/202535370-0298b44f-7fc4-4dcd-950f-94d79abed26e.gif)
-
 
 ## Features
 
@@ -238,10 +229,13 @@ class RenderBoxes extends StatelessWidget {
 }
 
 ```
+## Motivation
+Main motivation behind this package was one of my project feature was required a responsive UI and simple device query for different platform.
+## Authors
+- [@subhashDev11](https://github.com/subhashDev11)
 
 ## 🚀 About Me
 I'm a flutter developer...
-
 
 ## 🔗 Links
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://subhashdev121.github.io/subhash/#/)
@@ -249,7 +243,6 @@ I'm a flutter developer...
 [![medium](https://img.shields.io/badge/medium-000?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@subhashchandrashukla)
 
 ![Logo](https://i.ibb.co/2szbbHF/code-xposer.png)
-
 
 ## License
 
