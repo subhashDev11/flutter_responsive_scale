@@ -4,7 +4,7 @@
 
 ## Demo
 https://user-images.githubusercontent.com/70679949/214531030-25c9f4d9-9ca5-4067-9a2b-9071cd6de115.mp4
-
+![](../../flutter_responsive_scale.gif)
 ## Features
 
 - Responsive UI
