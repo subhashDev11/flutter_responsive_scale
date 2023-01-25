@@ -37,14 +37,14 @@ import 'package:flutter_responsive_scale/flutter_responsive_scale.dart';
 
 ### Property
 
-| Property        | Type         | Parameter | Description                                                                 |
-| --------------- | ------------ | ------------- | --------------------------------------------------------------------------- |
-| context.Scale(size)      | Function        | double required          |  Pixels scaled per device from design. Where One pixel on a 160px screen equals two pixels on a 320px screen. Also and alias for scaleX.     |
-| context.fontScale(14)      | Function         | double required | Relative to the font-size setting of the actual device.
-| context.scaleY()         | Function     | double required          |  Reference device configuration -  Reference width of device. Defaults to 414px (iPhone XS Max)  Reference height of device. Defaults to 896px (iPhone XS Max),  Should allow automatic scaling of font sizes. Defaults to true  |
-| ResponsiveScaleConfig     | Clase     | height (double), width (double), allowFontScaling (bool - true)  |  Pixels scaled per device from design in the Vertical direction. Where One pixel on a 160px screen equals two pixels on a 320px screen. |
+| Property              | Type     | Parameter                                                       | Description                                                                                                                                                                                                                    |
+|-----------------------|----------|-----------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| context.Scale(size)   | Function | double required                                                 | Pixels scaled per device from design. Where One pixel on a 160px screen equals two pixels on a 320px screen. Also and alias for scaleX.                                                                                        |
+| context.fontScale(14) | Function | double required                                                 | Relative to the font-size setting of the actual device.                                                                                                                                                                        |
+| context.scaleY()      | Function | double required                                                 | Reference device configuration -  Reference width of device. Defaults to 414px (iPhone XS Max)  Reference height of device. Defaults to 896px (iPhone XS Max),  Should allow automatic scaling of font sizes. Defaults to true |
+| ResponsiveScaleConfig | Clase    | height (double), width (double), allowFontScaling (bool - true) | Pixels scaled per device from design in the Vertical direction. Where One pixel on a 160px screen equals two pixels on a 320px screen.                                                                                         |
 
-### Initialize and set the fit size and font size to scale according to the system's "font size" accessibility option 
+### Initialize and set the fit size and font size to scale according to the system's "font size" accessibility option
 
 Please set the scale config of the design draft before use, the width, height of the design draft and allowFontScaling.
 
