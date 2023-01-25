@@ -2,10 +2,8 @@
 # flutter_responsive_scale
 **A flutter plugin for adapting screen and font size.Let your UI display a reasonable layout on different screen sizes by using device scale!**
 
-![](C:/Users/Bhardwaj/Downloads/steppr_list_view.gif)
-
 ## Demo
-![steppr_list_view](https://user-images.githubusercontent.com/70679949/202535370-0298b44f-7fc4-4dcd-950f-94d79abed26e.gif)
+https://user-images.githubusercontent.com/70679949/214531030-25c9f4d9-9ca5-4067-9a2b-9071cd6de115.mp4
 
 ## Features
 
