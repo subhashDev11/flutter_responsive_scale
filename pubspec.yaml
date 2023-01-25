@@ -1,7 +1,10 @@
 name: flutter_responsive_scale
-description: A new Flutter package project.
+description: A flutter plugin for adapting screen and font size.Let your UI display a reasonable layout on different screen sizes by using device scale.
 version: 0.0.1
-homepage:
+authors:
+  - Subhash Chandra Shukla <subhashchandras7318@gmail.com>
+
+homepage: https://github.com/subhashDev11/flutter_responsive_scale.git
 
 environment:
   sdk: '>=2.18.6 <3.0.0'
