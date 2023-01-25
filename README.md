@@ -3,7 +3,7 @@
 **A flutter plugin for adapting screen and font size.Let your UI display a reasonable layout on different screen sizes by using device scale!**
 
 ## Demo
-https://easyupload.io/42oewj
+![ezgif-4-0040112d85](https://user-images.githubusercontent.com/70679949/214622291-47580841-f4ef-45f0-bfec-4e42f51b8625.gif)
 
 https://user-images.githubusercontent.com/70679949/214531030-25c9f4d9-9ca5-4067-9a2b-9071cd6de115.mp4
 
