@@ -1,6 +1,5 @@
 
 # flutter_responsive_scale
-
 **A flutter plugin for adapting screen and font size.Let your UI display a reasonable layout on different screen sizes by using device scale!**
 
 ![](C:/Users/Bhardwaj/Downloads/steppr_list_view.gif)
@@ -51,9 +50,7 @@ import 'package:flutter_responsive_scale/flutter_responsive_scale.dart';
 | --------------- | ------------ | ------------- | --------------------------------------------------------------------------- |
 | context.Scale(size)      | Function        | double required          |  Pixels scaled per device from design. Where One pixel on a 160px screen equals two pixels on a 320px screen. Also and alias for scaleX.     |
 | context.fontScale(14)      | Function         | double required | Relative to the font-size setting of the actual device.
-
 | context.scaleY()         | Function     | double required          |  Pixels scaled per device from design in the Vertical direction. Where One pixel on a 160px screen equals two pixels on a 320px screen. |
-
 | ResponsiveScaleConfig     | Clase     | height (double), width (double), allowFontScaling (bool - true)  |  Pixels scaled per device from design in the Vertical direction. Where One pixel on a 160px screen equals two pixels on a 320px screen. |
 
 
